@@ -1,0 +1,359 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.shapka {
+    width: 100%;
+    height: 150px;
+    background-image: url(Shapka.png);
+    background-size: cover;
+    margin: 0;
+    box-shadow: inset 0px -35px 29px -32px #000000;
+}
+
+.main {
+    background: linear-gradient(-30deg, #1a2f7d80, #32448280, #6194c780, #ae949580, #ebb29880, #c3657080, #8b3b4280);
+    text-shadow: 2px 2px 2px rgba(255, 255, 255, 0.1);
+    font-family: "Roboto Condensed", sans-serif;
+    width: 100%;
+    margin: 0
+}
+
+.real {
+    margin-top: 0;
+    margin: auto;
+    text-align: center;
+}
+
+.text {
+    background: linear-gradient(-70deg, #1A307D 20%, #22367d 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.heading2 {
+    font-size: 36px;
+    font-family: "Montserrat", sans-serif;
+    text-align: center
+}
+
+.true-main-heading-left {
+    position: relative;
+    height: 500px;
+    width: 40%;
+    float: left;
+    font-size: 36px;
+    left: 10%
+}
+
+.true-main-heading-right {
+    position: relative;
+    height: 500px;
+    width: 40%;
+    float: right;
+    font-size: 36px;
+    border-radius: 50%;
+    left: -10%
+}
+
+.izaya {
+    position: relative;
+    width: 484px;
+    border: solid 8px;
+    border-radius: 50%;
+    border-color: #1A307D;
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.7);
+    left: 0%
+}
+
+.skipping {
+    float: left;
+    height: 35px;
+    width: 100%
+}
+
+.hr-shadow {
+    border: none;
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.2);
+    color: rgb(26, 48, 125);
+    background: linear-gradient(70deg, #1A307D 20%, #2d48ab 80%);
+    height: 8px;
+    width: 50%;
+    text-align: center;
+}
+
+.scince {
+    /*Параметры*/
+    min-height: 500px;
+    width: 100%;
+    display: table;
+    padding-top: 30px;
+    /*Настройки блока*/
+    border-width: 8px;
+    border-color: black;
+    background: linear-gradient(30deg, #1A307D 20%, #4c68ce 80%);
+    box-shadow: inset 0px 0px 25px 1px rgba(0, 0, 0, 0.5);
+    background-size: cover;
+    /*Настройки текста*/
+    font-size: 32px;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.scince-heading {
+    /*Параметры*/
+    width: 55%;
+    min-height: 100px;
+    float: right;
+    /*Настройки блока*/
+    background-size: cover;
+    border-color: #ffffff;
+    /*Настройки текста*/
+    color: #f0f8ff;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.scince-text {
+    width: 51%;
+    min-height: 600px;
+    position: relative;
+    float: right;
+    margin: 0% 2% 0% 2%;
+    text-align: left;
+    text-indent: 2em
+}
+
+.scinse-photo {
+    left: 2%;
+    top: -60px;
+    width: 40%;
+    min-height: 375px;
+    position: relative;
+    float: left;
+    margin: 0;
+}
+
+.real-photo {
+    position: relative;
+    width: 100%;
+    border: solid 8px;
+    border-radius: 25px;
+    border-color: #ffffff;
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.7);
+    left: 0%;
+    margin-bottom: 5%
+}
+
+.block-heading {
+    /*Параметры*/
+    min-height: 150px;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    width: 80%;
+    display: table;
+    /*Настройки блока*/
+    background: linear-gradient(210deg, #ebb298 20%, #c36570 80%);
+    box-shadow: inset 0px 0px 15px 3px rgb(0, 0, 0);
+    background-size: cover;
+    /*Настройки текста*/
+    font-size: 32px;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.gaming {
+    /*Параметры*/
+    min-height: 1000px;
+    width: 90%;
+    display: table;
+    padding: 2% 5%;
+    /*Настройки блока*/
+    background: linear-gradient(210deg, #000000 30%, #393939);
+    box-shadow: inset 0px 0px 25px 1px rgba(0, 0, 0, 0.5);
+    background-size: cover;
+    /*Настройки текста*/
+    font-size: 28px;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.skill-show {
+    position: relative;
+    float: right;
+    width: 55%;
+    min-height: 400px;
+    border: solid 8px;
+    border-radius: 25px;
+    border-color: #ffffff;
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.7);
+    left: 0%;
+    margin-bottom: 5%
+}
+
+.title {
+    /*Параметры*/
+    width: 40%;
+    min-height: 100px;
+    float: left;
+    /*Настройки блока*/
+    background-size: cover;
+    border-color: #ffffff;
+    /*Настройки текста*/
+    color: #f0f8ff;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.info {
+    /*Параметры*/
+    width: 40%;
+    min-height: 300px;
+    float: left;
+    color: #f0f8ff;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+    text-align: left;
+    text-indent: 2em
+}
+
+.skill-show2 {
+    position: relative;
+    float: left;
+    width: 55%;
+    min-height: 400px;
+    border: solid 8px;
+    border-radius: 25px;
+    border-color: #ffffff;
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.7);
+    left: 0%;
+    margin-bottom: 5%
+}
+
+.title2 {
+    /*Параметры*/
+    width: 40%;
+    min-height: 100px;
+    float: right;
+    /*Настройки блока*/
+    background-size: cover;
+    border-color: #ffffff;
+    /*Настройки текста*/
+    color: #f0f8ff;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.info2 {
+    /*Параметры*/
+    width: 40%;
+    min-height: 300px;
+    float: right;
+    color: #f0f8ff;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+    text-align: left;
+    text-indent: 2em
+}
+
+.cs-go {
+    min-height: 500px;
+    width: 100%;
+    display: table;
+}
+
+.osu{
+    min-height: 500px;
+    width: 100%;
+    display: table;
+}
+
+.valorant{
+    min-height: 500px;
+    width: 100%;
+    display: table;
+}
+
+.hobby{
+        /*Параметры*/
+        min-height: 400px;
+        width: 90%;
+        display: table;
+        padding: 2% 5%;
+        /*Настройки блока*/
+        background: linear-gradient(30deg, #ffaa65, #ffdab5 80%);
+        box-shadow: inset 0px 0px 25px 1px #672f00;
+        background-size: cover;
+        /*Настройки текста*/
+        font-size: 28px;
+        text-align: center;
+        color: white;
+        text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.piano-skils{
+    margin-left: -2%;
+    margin-right: 2%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    display: table;
+    position: relative;
+    float: left;
+    width: 45%;
+    min-height: 300px;
+    border: solid 8px;
+    border-radius: 25px;
+    border-color: #672f00;
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.7);
+    left: 0%;
+    margin-bottom: 5%
+}
+
+.piano-story{
+    display: table;
+    width: 53%;
+    min-height: 300px;
+    margin-top: 2%;
+    float: right;
+    color: #672f00;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+    text-align: left;
+    text-indent: 2em
+}
+
+.sax-skils{
+    margin-left: -2%;
+    margin-right: 2%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    display: table;
+    position: relative;
+    float: left;
+    width: 45%;
+    min-height: 300px;
+    border: solid 8px;
+    border-radius: 25px;
+    border-color: #672f00;
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.7);
+    left: 0%;
+    margin-bottom: 5%
+}
+
+.sax-story{
+    display: table;
+    width: 53%;
+    min-height: 300px;
+    margin-top: 2%;
+    float: right;
+    color: #672f00;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+    text-align: left;
+    text-indent: 2em
+}
+
+.sax{
+    display: table
+}
+
+.piano{
+    display: table
+}
