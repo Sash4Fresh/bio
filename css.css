@@ -37,7 +37,7 @@
     padding-top: 5%;
     padding-bottom: 5%;
     background-image: url(blur.png);
-    height: 500px;
+    min-height: 500px;
     background-size: cover;
     width: 100%;
     display: table;
@@ -46,7 +46,7 @@
 .true-main-heading-left {
     font-family: "Montserrat", sans-serif;
     position: relative;
-    height: 500px;
+    min-height: 100px;
     width: 40%;
     float: left;
     font-size: 36px;
@@ -59,13 +59,27 @@
 
 .true-main-heading-right {
     position: relative;
-    height: 500px;
+    min-height: 100px;
     width: 40%;
     display: table;
     float: right;
     font-size: 36px;
     border-radius: 50%;
     left: -10%
+}
+
+.namae {
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+    top: -20%
+}
+
+.passage {
+    position: relative;
+    text-align: center;
+    font-size: 32px;
+    top: -5%
 }
 
 .izaya {
@@ -116,6 +130,20 @@
     display: table
 }
 
+.up-if-low{
+    width: 0%;
+    height: 0px;
+    font-size: 0px;
+
+}
+
+.down-if-low{
+    width: 0%;
+    height: 0px;
+
+}
+
+
 .scinse-photo {
     display: table;
     left: 2%;
@@ -139,7 +167,7 @@
 
 .aa {
     /*Параметры*/
-    min-height: 400px;
+    min-height: 100px;
     width: 100%;
     display: table;
     padding-top: 24px;
@@ -159,7 +187,7 @@
 
 .aa-text {
     width: 51%;
-    min-height: 300px;
+    min-height: 100px;
     position: relative;
     float: right;
     margin-right: 3%;
@@ -217,7 +245,7 @@
 
 .gaming {
     /*Параметры*/
-    min-height: 800px;
+    min-height: 100px;
     width: 90%;
     display: table;
     padding: 2% 5%;
@@ -276,7 +304,7 @@
 .info {
     /*Параметры*/
     width: 40%;
-    min-height: 300px;
+    min-height: 100px;
     float: left;
     color: #f0f8ff;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
@@ -313,7 +341,7 @@
 .info2 {
     /*Параметры*/
     width: 40%;
-    min-height: 300px;
+    min-height: 100px;
     float: right;
     color: #f0f8ff;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
@@ -322,19 +350,19 @@
 }
 
 .cs-go {
-    min-height: 500px;
+    min-height: 100px;
     width: 100%;
     display: table;
 }
 
 .osu {
-    min-height: 500px;
+    min-height: 100px;
     width: 100%;
     display: table;
 }
 
 .valorant {
-    min-height: 500px;
+    min-height: 100px;
     width: 100%;
     display: table;
 }

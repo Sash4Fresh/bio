@@ -1,0 +1,287 @@
+/*Овер фул ХД*/
+@media only screen and (max-width: 2220px) {
+    .scince-text {
+        font-size: 32px;
+    }
+
+    .aa-text {
+        font-size: 34px;
+    }
+
+    .info {
+        font-size: 31px;
+    }
+
+    .info2 {
+        font-size: 31px;
+    }
+
+    .block-heading {
+        font-size: 31px
+    }
+
+    .heading2 {
+        font-size: 41px
+    }
+
+    .sax-story {
+        font-size: 28px
+    }
+
+    .piano-story {
+        font-size: 28px
+    }
+
+    .des-text {
+        font-size: 26px
+    }
+
+    #undergraund .heading2{
+        font-size: 20px
+    }
+
+    .un-text {
+        font-size: 14px;
+        text-indent: 0;
+    }
+}
+
+/*Фул ХД*/
+@media only screen and (max-width: 1920px) {
+    .scince-text {
+        font-size: 26px;
+    }
+
+    .aa-text {
+        font-size: 26px;
+    }
+
+    .info {
+        font-size: 25px;
+    }
+
+    .info2 {
+        font-size: 25px;
+    }
+
+    .block-heading {
+        font-size: 28px
+    }
+
+    .heading2 {
+        font-size: 34px
+    }
+
+    .sax-story {
+        font-size: 24px
+    }
+
+    .piano-story {
+        font-size: 24px
+    }
+
+    .des-text {
+        font-size: 20px
+    }
+
+    #undergraund .heading2{
+        font-size: 20px
+    }
+
+    .un-text {
+        font-size: 14px
+    }
+}
+
+/*Почти фул ХД*/
+@media only screen and (max-width: 1500px) {
+    .true-main-heading-right {
+        left: -5%;
+    }
+
+    .true-main-heading-left {
+        left: 5%
+    }
+
+    .scince-text {
+        font-size: 20px;
+    }
+
+    .aa-text {
+        font-size: 20px;
+    }
+
+    .info {
+        font-size: 20px;
+    }
+
+    .info2 {
+        font-size: 20px;
+    }
+
+    .block-heading {
+        font-size: 24px
+    }
+
+    .heading2 {
+        font-size: 27px
+    }
+
+    .sax-story {
+        font-size: 18px
+    }
+
+    .piano-story {
+        font-size: 18px
+    }
+
+    .des-text {
+        font-size: 18px
+    }
+
+    .un-text {
+        font-size: 14px
+    }
+}
+
+/*Маленькие мониторы*/
+@media only screen and (max-width: 1200px) {
+    .fio {
+        min-height: 100px;
+    }
+
+    .true-main-heading-right {
+        left: -5%;
+        min-height: 10px;
+    }
+
+    .true-main-heading-left {
+        left: 5%;
+        min-height: 10px;
+    }
+
+    .namae {
+        font-size: 30px;
+        top: -10%
+    }
+
+    .passage {
+        font-size: 22px;
+        top: -10%
+    }
+
+    .izaya {
+        width: 400px
+    }
+
+    .scince {
+        min-height: 100px;
+    }
+
+    .scince-text {
+        font-size: 17px;
+    }
+
+    .aa-text {
+        font-size: 17px;
+    }
+
+    .info {
+        font-size: 16px;
+    }
+
+    .info2 {
+        font-size: 16px;
+    }
+
+    .title {
+        min-height: 60px;
+    }
+
+    .title2 {
+        min-height: 60px;
+    }
+
+    .block-heading {
+        font-size: 17px;
+        min-height: 20px;
+    }
+
+    .heading2 {
+        font-size: 20px
+    }
+
+    .sax-story {
+        font-size: 15px
+    }
+
+    .piano-story {
+        font-size: 15px
+    }
+
+    .des-text {
+        font-size: 16px
+    }
+
+    #undergraund .heading2{
+        font-size: 20px
+    }
+
+    .un-text {
+        font-size: 14px
+    }
+}
+
+/*Точно планшеты и большие телефоны*/
+@media only screen and (max-width: 768px) {
+    .scince-text {
+        font-size: 32px;
+    }
+
+    .aa-text {
+        font-size: 34px;
+    }
+
+    .info {
+        font-size: 31px;
+    }
+
+    .info2 {
+        font-size: 31px;
+    }
+
+    .block-heading {
+        font-size: 31px
+    }
+
+    .heading2 {
+        font-size: 41px
+    }
+
+    .sax-story {
+        font-size: 28px
+    }
+
+    .piano-story {
+        font-size: 28px
+    }
+
+    .des-text {
+        font-size: 26px
+    }
+
+    #undergraund .heading2{
+        font-size: 20px
+    }
+
+    .un-text {
+        font-size: 14px;
+        text-indent: 0;
+    }
+}
+
+/*Телефоны*/
+@media only screen and (max-width: 480px) {}
+
+/*Часы?*/
+@media only screen and (max-width: 320px) {}
