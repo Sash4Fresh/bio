@@ -36,7 +36,7 @@
         font-size: 26px
     }
 
-    #undergraund .heading2{
+    #undergraund .heading2 {
         font-size: 20px
     }
 
@@ -84,7 +84,7 @@
         font-size: 20px
     }
 
-    #undergraund .heading2{
+    #undergraund .heading2 {
         font-size: 20px
     }
 
@@ -100,7 +100,7 @@
     }
 
     .true-main-heading-left {
-        left: 5%
+        left: 5%;
     }
 
     .scince-text {
@@ -161,17 +161,16 @@
     }
 
     .namae {
-        font-size: 30px;
-        top: -10%
+        font-size: 24px;
     }
 
     .passage {
-        font-size: 22px;
+        font-size: 20px;
         top: -10%
     }
 
     .izaya {
-        width: 400px
+        width: 300px
     }
 
     .scince {
@@ -223,7 +222,7 @@
         font-size: 16px
     }
 
-    #undergraund .heading2{
+    #undergraund .heading2 {
         font-size: 20px
     }
 
@@ -232,56 +231,591 @@
     }
 }
 
-/*Точно планшеты и большие телефоны*/
-@media only screen and (max-width: 768px) {
+/*Маленькие мониторы*/
+@media only screen and (max-width: 1000px) {
+    .fio {
+        min-height: 100px;
+    }
+
+    .true-main-heading-right {
+        left: -5%;
+        min-height: 10px;
+    }
+
+    .true-main-heading-left {
+        left: 5%;
+        min-height: 10px;
+    }
+
+    .namae {
+        font-size: 24px;
+    }
+
+    .passage {
+        font-size: 20px;
+        top: -10%
+    }
+
+    .izaya {
+        width: 300px
+    }
+
+    .scince {
+        min-height: 100px;
+    }
+
+    .scinse-photo {
+        display: none;
+    }
+
+    .scinse-photo2 {
+        display: table;
+        width: 44%;
+        margin-left: 4%;
+        margin-right: 4%;
+        min-height: 100px;
+        position: relative;
+        float: left;
+    }
+
+    .scinse-photo3 {
+        display: table;
+        width: 44%;
+        min-height: 100px;
+        margin-right: 4%;
+        position: relative;
+        float: left;
+    }
+
     .scince-text {
-        font-size: 32px;
+        width: 90%;
+        min-height: 5px;
+        font-size: 19px;
+        margin-right: 0;
+        padding-right: 5%;
+        padding-left: 5%;
+    }
+
+    .aa-photo {
+        display: none;
     }
 
     .aa-text {
-        font-size: 34px;
+        width: 90%;
+        min-height: 5px;
+        font-size: 19px;
+        margin-right: 0;
+        padding-right: 5%;
+        padding-left: 5%;
+    }
+
+    .aa-photo2 {
+        display: table;
+        width: 44%;
+        margin-left: 4%;
+        margin-right: 4%;
+        min-height: 100px;
+        position: relative;
+        float: left;
+    }
+
+    .aa-photo3 {
+        display: table;
+        width: 44%;
+        min-height: 100px;
+        margin-right: 4%;
+        position: relative;
+        float: left;
     }
 
     .info {
-        font-size: 31px;
+        display: none;
     }
 
     .info2 {
-        font-size: 31px;
+        display: none;
+    }
+
+    .info-lower {
+        display: table;
+        font-size: 19px;
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 36px;
+        text-align: left;
+        text-indent: 2em;
+        font-size: 19px;
+    }
+
+    .skill-show {
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 20px
+    }
+
+    .skill-show2 {
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 20px
+    }
+
+    .title {
+        width: 100%;
+        min-height: 10px;
+    }
+
+    .title2 {
+        width: 100%;
+        min-height: 10px;
     }
 
     .block-heading {
-        font-size: 31px
+        font-size: 17px;
+        min-height: 20px;
     }
 
     .heading2 {
-        font-size: 41px
+        font-size: 20px
     }
 
     .sax-story {
-        font-size: 28px
+        display: none;
     }
 
     .piano-story {
-        font-size: 28px
+        display: none;
+    }
+
+    .music-lower {
+        display: table;
+        font-size: 19px;
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        text-align: left;
+        text-indent: 2em;
+        font-size: 19px;
+        color: #672f00;
+    }
+
+    .piano-skils {
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 20px
+    }
+
+    .sax-skils {
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 20px
+    }
+
+    .activities {
+        width: 100%;
+        padding-left: 0%;
+        padding-right: 0%;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        background: linear-gradient(190deg, #ff3535 11%, #5181b8 33%, #5181b8 40%, #000000 62%);
+    }
+
+    .ntuo {
+        width: 40%;
+        margin-left: 30%;
+        margin-right: 30%;
+        margin-bottom: 40px;
+        display: table;
+        position: relative;
+        padding-bottom: 20px;
+        float: left;
+    }
+
+    .dv {
+        width: 40%;
+        margin-left: 30%;
+        margin-right: 30%;
+        margin-bottom: 40px;
+        display: table;
+        position: relative;
+        padding-bottom: 20px;
+        float: left;
+    }
+
+    .dollars {
+        width: 40%;
+        margin-left: 30%;
+        margin-right: 30%;
+        margin-bottom: 40px;
+        padding-bottom: 20px;
+        display: table;
+        position: relative;
+        float: left;
+    }
+
+    .ds-text {
+        color: azure;
+        font-size: 16px
     }
 
     .des-text {
-        font-size: 26px
+        font-size: 16px
     }
 
-    #undergraund .heading2{
+    #undergraund .heading2 {
         font-size: 20px
     }
 
     .un-text {
-        font-size: 14px;
-        text-indent: 0;
+        font-size: 14px
+    }
+}
+
+/*Точно планшеты*/
+@media only screen and (max-width: 768px) {
+    .fio {
+        min-height: 100px;
+    }
+
+    .true-main-heading-right {
+        left: -5%;
+        min-height: 10px;
+    }
+
+    .true-main-heading-left {
+        left: 5%;
+        min-height: 10px;
+    }
+
+    .namae {
+        font-size: 20px;
+    }
+
+    .passage {
+        font-size: 16px;
+        top: -10%
+    }
+
+    .izaya {
+        width: 250px
+    }
+
+    .scince {
+        min-height: 100px;
+    }
+
+    .scince-text {
+        display: none;
+    }
+
+    .up-if-low {
+        display: table;
+        font-size: 18px;
+    }
+
+    .down-if-low {
+        width: 94%;
+        padding-left: 3%;
+        padding-right: 3%;
+        position: relative;
+        float: left;
+        text-align: left;
+        text-indent: 2em;
+        display: table;
+        font-size: 18px;
+        top: -20px
+    }
+
+    .scinse-photo {
+        display: table;
+        left: 2%;
+        width: 40%;
+        min-height: 10px;
+        position: relative;
+        float: left;
+        margin: 0;
+    }
+
+    .aa-text {
+        font-size: 17px;
+    }
+
+    .info {
+        font-size: 16px;
+    }
+
+    .info2 {
+        font-size: 16px;
+    }
+
+    .title {
+        min-height: 60px;
+    }
+
+    .title2 {
+        min-height: 60px;
+    }
+
+    .block-heading {
+        font-size: 17px;
+        min-height: 20px;
+    }
+
+    .heading2 {
+        font-size: 20px
+    }
+
+    .sax-story {
+        font-size: 15px
+    }
+
+    .piano-story {
+        font-size: 15px
+    }
+
+    .des-text {
+        font-size: 16px
+    }
+
+    #undergraund .heading2 {
+        font-size: 20px
+    }
+
+    .un-text {
+        font-size: 14px
     }
 }
 
 /*Телефоны*/
-@media only screen and (max-width: 480px) {}
+@media only screen and (max-width: 480px) {
+    .fio {
+        min-height: 100px;
+    }
+
+    .true-main-heading-right {
+        left: -5%;
+        min-height: 10px;
+    }
+
+    .true-main-heading-left {
+        left: 5%;
+        min-height: 10px;
+    }
+
+    .namae {
+        font-size: 20px;
+    }
+
+    .passage {
+        font-size: 16px;
+        top: -10%
+    }
+
+    .izaya {
+        width: 250px
+    }
+
+    .scince {
+        min-height: 100px;
+    }
+
+    .scince-text {
+        display: none;
+    }
+
+    .up-if-low {
+        display: table;
+        font-size: 18px;
+    }
+
+    .down-if-low {
+        width: 94%;
+        padding-left: 3%;
+        padding-right: 3%;
+        position: relative;
+        float: left;
+        text-align: left;
+        text-indent: 2em;
+        display: table;
+        font-size: 18px;
+        top: -20px
+    }
+
+    .scinse-photo {
+        display: table;
+        left: 2%;
+        width: 40%;
+        min-height: 10px;
+        position: relative;
+        float: left;
+        margin: 0;
+    }
+
+    .aa-text {
+        font-size: 17px;
+    }
+
+    .info {
+        font-size: 16px;
+    }
+
+    .info2 {
+        font-size: 16px;
+    }
+
+    .title {
+        min-height: 60px;
+    }
+
+    .title2 {
+        min-height: 60px;
+    }
+
+    .block-heading {
+        font-size: 17px;
+        min-height: 20px;
+    }
+
+    .heading2 {
+        font-size: 20px
+    }
+
+    .sax-story {
+        font-size: 15px
+    }
+
+    .piano-story {
+        font-size: 15px
+    }
+
+    .des-text {
+        font-size: 16px
+    }
+
+    #undergraund .heading2 {
+        font-size: 20px
+    }
+
+    .un-text {
+        font-size: 14px
+    }
+}
 
 /*Часы?*/
-@media only screen and (max-width: 320px) {}
+@media only screen and (max-width: 320px) {
+    .fio {
+        min-height: 100px;
+    }
+
+    .true-main-heading-right {
+        left: -5%;
+        min-height: 10px;
+    }
+
+    .true-main-heading-left {
+        left: 5%;
+        min-height: 10px;
+    }
+
+    .namae {
+        font-size: 20px;
+    }
+
+    .passage {
+        font-size: 16px;
+        top: -10%
+    }
+
+    .izaya {
+        width: 250px
+    }
+
+    .scince {
+        min-height: 100px;
+    }
+
+    .scince-text {
+        display: none;
+    }
+
+    .up-if-low {
+        display: table;
+        font-size: 18px;
+    }
+
+    .down-if-low {
+        width: 94%;
+        padding-left: 3%;
+        padding-right: 3%;
+        position: relative;
+        float: left;
+        text-align: left;
+        text-indent: 2em;
+        display: table;
+        font-size: 18px;
+        top: -20px
+    }
+
+    .scinse-photo {
+        display: table;
+        left: 2%;
+        width: 40%;
+        min-height: 10px;
+        position: relative;
+        float: left;
+        margin: 0;
+    }
+
+    .aa-text {
+        font-size: 17px;
+    }
+
+    .info {
+        font-size: 16px;
+    }
+
+    .info2 {
+        font-size: 16px;
+    }
+
+    .title {
+        min-height: 60px;
+    }
+
+    .title2 {
+        min-height: 60px;
+    }
+
+    .block-heading {
+        font-size: 17px;
+        min-height: 20px;
+    }
+
+    .heading2 {
+        font-size: 20px
+    }
+
+    .sax-story {
+        font-size: 15px
+    }
+
+    .piano-story {
+        font-size: 15px
+    }
+
+    .des-text {
+        font-size: 16px
+    }
+
+    #undergraund .heading2 {
+        font-size: 20px
+    }
+
+    .un-text {
+        font-size: 14px
+    }
+}

@@ -1,0 +1,93 @@
+/*Точно планшеты и большие телефоны*/
+@media only screen and (max-width: 770px) {
+    .fio {
+        min-height: 100px;
+    }
+
+    .true-main-heading-right {
+        left: -5%;
+        min-height: 10px;
+    }
+
+    .true-main-heading-left {
+        left: 5%;
+        min-height: 10px;
+        color: blue 
+    }
+
+    .namae {
+        font-size: 30px;
+        top: -10%;
+        color: blue
+    }
+
+    .passage {
+        font-size: 22px;
+        top: -10%
+    }
+
+    .izaya {
+        width: 400px
+    }
+
+    .scince {
+        min-height: 100px;
+    }
+
+    .scince-text {
+        font-size: 17px;
+    }
+
+    .aa-text {
+        font-size: 17px;
+    }
+
+    .info {
+        font-size: 16px;
+    }
+
+    .info2 {
+        font-size: 16px;
+    }
+
+    .title {
+        min-height: 60px;
+    }
+
+    .title2 {
+        min-height: 60px;
+    }
+
+    .block-heading {
+        font-size: 17px;
+        min-height: 20px;
+    }
+
+    .heading2 {
+        font-size: 20px
+    }
+
+    .sax-story {
+        font-size: 15px
+    }
+
+    .piano-story {
+        font-size: 15px
+    }
+
+    .des-text {
+        font-size: 16px
+    }
+
+    #undergraund .heading2{
+        font-size: 20px
+    }
+
+    .un-text {
+        font-size: 14px
+    }
+}
+
+/*Телефоны*/
+
+/*Часы?*/
