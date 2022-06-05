@@ -130,7 +130,7 @@
     display: table
 }
 
-.up-if-low{
+.up-if-low {
     width: 51%;
     min-height: 10px;
     position: relative;
@@ -142,7 +142,7 @@
     font-size: 17px;
 }
 
-.down-if-low{
+.down-if-low {
     width: 90%;
     padding-left: 5%;
     padding-right: 5%;
@@ -241,13 +241,13 @@
     border: solid 8px;
     border-radius: 25px;
     border-color: #ffffff;
-    box-sizing: border-box;    
+    box-sizing: border-box;
     box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.7);
     margin-bottom: 5%;
     margin-top: 5%
 }
 
-.aa-link{
+.aa-link {
     color: rgb(4, 0, 229);
     text-decoration: none;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
@@ -290,17 +290,17 @@
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
 }
 
-.osu-link{
+.osu-link {
     color: #f63d90;
     text-decoration: none;
 }
 
-.cs-link{
+.cs-link {
     color: #fd9b00;
     text-decoration: none;
 }
 
-.val-link{
+.val-link {
     color: #ff4657;
     text-decoration: none;
 }
@@ -381,11 +381,11 @@
     text-indent: 2em
 }
 
-.info-lower{
+.info-lower {
     display: none;
 }
 
-.music-lower{
+.music-lower {
     display: none;
 }
 
@@ -439,7 +439,8 @@
     border-color: #672f00;
     box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.7);
     left: 0%;
-    margin-bottom: 5%
+    margin-bottom: 5%;
+    box-sizing: border-box;
 }
 
 .piano-story {
@@ -469,7 +470,8 @@
     border-color: #672f00;
     box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.7);
     left: 0%;
-    margin-bottom: 5%
+    margin-bottom: 5%;
+    box-sizing: border-box;
 }
 
 .sax-story {
@@ -492,7 +494,7 @@
     display: table
 }
 
-.hobby-link{
+.hobby-link {
     color: rgb(229, 114, 0);
     text-decoration: none;
 }
@@ -696,7 +698,7 @@
     background-color: #000000;
 }
 
-.description{
+.description {
     min-height: 70px;
     width: 100%;
     position: relative;
@@ -706,8 +708,8 @@
     display: table;
 }
 
-.des-text{
-    color:white;
+.des-text {
+    color: white;
     font-size: 20px;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
     font-family: "Montserrat", sans-serif;
@@ -720,13 +722,13 @@
     padding-top: 2%;
 }
 
-.ds-text{
+.ds-text {
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
     color: black;
     margin-bottom: 0px;
 }
 
-.underground{
+.underground {
     /*Параметры*/
     min-height: 120px;
     padding-left: 10%;
@@ -744,21 +746,22 @@
     text-align: left;
     color: white;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
-    
+
 }
 
-.un-text{
+.un-text {
     width: 31%;
     position: relative;
     float: left;
     text-align: justify;
     text-indent: 2em;
-    display: table; 
+    display: table;
     text-align: left;
     font-size: 1em;
+    padding-right: 2%;
 }
 
-.un-lin{
+.un-lin {
     color: rgb(255, 255, 255);
     text-decoration: none;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);

@@ -501,6 +501,7 @@
     }
 
     .izaya {
+        margin-top: 2%;
         margin-left: 20%;
         margin-right: 20%;
         box-sizing: border-box;
@@ -596,7 +597,105 @@
 }
 
 /*Телефоны*/
-@media only screen and (max-width: 480px) {}
+@media only screen and (max-width: 480px) {
+    .izaya {
+        margin-left: 10%;
+        margin-right: 10%;
+        box-sizing: border-box;
+        width: 80%
+    }
+
+    .scince-text {
+        width: 90%;
+        min-height: 5px;
+        font-size: 16px;
+        margin-right: 0;
+        padding-right: 5%;
+        padding-left: 5%;
+    }
+
+    .aa-text {
+        width: 90%;
+        min-height: 5px;
+        font-size: 16px;
+        margin-right: 0;
+        padding-right: 5%;
+        padding-left: 5%;
+    }
+
+    .info-lower {
+        display: table;
+        font-size: 16px;
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 36px;
+        text-align: left;
+        text-indent: 2em;
+        font-size: 19px;
+    }
+
+    .skill-show {
+        width: 90%;
+        min-height: 20px;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 20px
+    }
+
+    .skill-show2 {
+        min-height: 20px;
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 20px
+    }
+
+    .music-lower {
+        display: table;
+        font-size: 16px;
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 36px;
+        text-align: left;
+        text-indent: 2em;
+        font-size: 19px;
+    }
+
+    .ntuo {
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-bottom: 40px;
+        display: inline;
+        position: relative;
+        padding-bottom: 20px;
+        float: left;
+    }
+
+    .dv {
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-bottom: 40px;
+        display: inline;
+        position: relative;
+        padding-bottom: 20px;
+        float: left;
+    }
+
+    .dollars {
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-bottom: 40px;
+        padding-bottom: 20px;
+        display: inline;
+        position: relative;
+        float: left;
+    }
+}
 
 /*Часы?*/
 @media only screen and (max-width: 320px) {}
