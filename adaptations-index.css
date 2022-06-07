@@ -1,0 +1,735 @@
+/*Овер фул ХД*/
+@media only screen and (max-width: 2220px) {
+    .scince-text {
+        font-size: 31px;
+    }
+
+    .aa-text {
+        font-size: 31px;
+    }
+
+    .info {
+        font-size: 31px;
+    }
+
+    .info2 {
+        font-size: 31px;
+    }
+
+    .block-heading {
+        font-size: 31px
+    }
+
+    .heading2 {
+        font-size: 41px
+    }
+
+    .sax-story {
+        font-size: 29px
+    }
+
+    .piano-story {
+        font-size: 29px
+    }
+
+    .des-text {
+        font-size: 26px
+    }
+
+    #undergraund .heading2 {
+        font-size: 20px
+    }
+
+    .un-text {
+        font-size: 19px;
+        text-indent: 0;
+    }
+}
+
+/*Фул ХД*/
+@media only screen and (max-width: 1920px) {
+    .scince-text {
+        font-size: 24px;
+    }
+
+    .aa-text {
+        font-size: 24px;
+    }
+
+    .info {
+        font-size: 25px;
+    }
+
+    .info2 {
+        font-size: 25px;
+    }
+
+    .block-heading {
+        font-size: 28px
+    }
+
+    .heading2 {
+        font-size: 34px
+    }
+
+    .sax-story {
+        font-size: 24px
+    }
+
+    .piano-story {
+        font-size: 24px
+    }
+
+    .des-text {
+        font-size: 20px
+    }
+
+    #undergraund .heading2 {
+        font-size: 20px
+    }
+
+    .un-text {
+        font-size: 16px
+    }
+}
+
+/*Почти фул ХД*/
+@media only screen and (max-width: 1500px) {
+    .true-main-heading-right {
+        left: -5%;
+    }
+
+    .true-main-heading-left {
+        left: 5%;
+    }
+
+    .scince-text {
+        font-size: 20px;
+    }
+
+    .aa-text {
+        font-size: 20px;
+    }
+
+    .info {
+        font-size: 20px;
+    }
+
+    .info2 {
+        font-size: 20px;
+    }
+
+    .block-heading {
+        font-size: 24px
+    }
+
+    .heading2 {
+        font-size: 27px
+    }
+
+    .sax-story {
+        font-size: 20px
+    }
+
+    .piano-story {
+        font-size: 20px
+    }
+
+    .des-text {
+        font-size: 18px
+    }
+
+    .un-text {
+        font-size: 14px
+    }
+}
+
+/*Маленькие мониторы*/
+@media only screen and (max-width: 1200px) {
+    .fio {
+        min-height: 100px;
+    }
+
+    .true-heading{
+        min-height: 100px;
+    }
+
+    .true-main-heading-right {
+        left: -5%;
+        min-height: 10px;
+    }
+
+    .true-main-heading-left {
+        left: 11%;
+        min-height: 10px;
+    }
+
+    .namae {
+        font-size: 24px;
+    }
+
+    .passage {
+        font-size: 20px;
+        top: -10%
+    }
+
+    .izaya {
+        width: 300px
+    }
+
+    .scince {
+        min-height: 100px;
+    }
+
+    .scince-text {
+        font-size: 16px;
+    }
+
+    .aa-text {
+        font-size: 16px;
+    }
+
+    .info {
+        font-size: 16px;
+    }
+
+    .info2 {
+        font-size: 16px;
+    }
+
+    .title {
+        min-height: 60px;
+    }
+
+    .title2 {
+        min-height: 60px;
+    }
+
+    .block-heading {
+        font-size: 17px;
+        min-height: 20px;
+    }
+
+    .heading2 {
+        font-size: 18px
+    }
+
+    .sax-story {
+        font-size: 16px
+    }
+
+    .piano-story {
+        font-size: 16px
+    }
+
+    .ntuo {
+        width: 34%;
+        margin-left: 10%;
+        margin-right: 6%;
+        margin-bottom: 40px;
+        display: inline;
+        position: relative;
+        padding-bottom: 20px;
+        float: left;
+    }
+
+    .dv {
+        width: 34%;
+        margin-right: 10%;
+        margin-bottom: 40px;
+        display: inline;
+        position: relative;
+        padding-bottom: 20px;
+        float: left;
+    }
+
+    .dollars {
+        width: 34%;
+        margin-left: 33%;
+        margin-right: 33%;
+        padding-bottom: 20px;
+        display: inline;
+        position: relative;
+        float: left;
+    }
+
+    .des-text {
+        font-size: 16px
+    }
+
+    #undergraund .heading2 {
+        font-size: 20px
+    }
+
+    .un-text {
+        font-size: 14px
+    }
+}
+
+/*Маленькие мониторы*/
+@media only screen and (max-width: 1000px) {
+    .fio {
+        min-height: 100px;
+    }
+
+    .true-heading {
+        min-height: 100px;
+    }
+
+    .true-main-heading-right {
+        left: -5%;
+        min-height: 10px;
+    }
+
+    .true-main-heading-left {
+        left: 5%;
+        min-height: 10px;
+    }
+
+    .namae {
+        font-size: 24px;
+    }
+
+    .passage {
+        font-size: 20px;
+        top: -10%
+    }
+
+    .izaya {
+        width: 300px
+    }
+
+    .scince {
+        min-height: 100px;
+        width: 90%;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .scinse-photo {
+        display: none;
+    }
+
+    .scinse-photo2 {
+        display: table;
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        min-height: 100px;
+        position: relative;
+        float: left;
+    }
+
+    .scince-text {
+        width: 90%;
+        min-height: 5px;
+        font-size: 19px;
+        margin-right: 0;
+        padding-right: 5%;
+        padding-left: 5%;
+    }
+
+    .aa{
+        min-height: 100px;
+        width: 90%;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .aa-photo {
+        display: none;
+    }
+
+    .aa-text {
+        width: 90%;
+        min-height: 5px;
+        font-size: 19px;
+        margin-right: 0;
+        padding-right: 5%;
+        padding-left: 5%;
+    }
+
+    .aa-photo2 {
+        display: table;
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        min-height: 100px;
+        position: relative;
+        float: left;
+    }
+
+    .info {
+        display: none;
+    }
+
+    .info2 {
+        display: none;
+    }
+
+    .info-lower {
+        display: table;
+        font-size: 19px;
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 36px;
+        text-align: left;
+        text-indent: 2em;
+        font-size: 19px;
+    }
+
+    .skill-show {
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 20px
+    }
+
+    .skill-show2 {
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 20px
+    }
+
+    .title {
+        width: 100%;
+        min-height: 10px;
+    }
+
+    .title2 {
+        width: 100%;
+        min-height: 10px;
+    }
+
+    .block-heading {
+        font-size: 17px;
+        min-height: 20px;
+    }
+
+    .heading2 {
+        font-size: 20px
+    }
+
+    .sax-story {
+        display: none;
+    }
+
+    .piano-story {
+        display: none;
+    }
+
+    .music-lower {
+        display: table;
+        font-size: 19px;
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        text-align: left;
+        text-indent: 2em;
+        font-size: 19px;
+        color: #ffffff;
+    }
+
+    .piano-skils {
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 20px
+    }
+
+    .sax-skils {
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 20px
+    }
+
+    .activities {
+        width: 100%;
+        padding-left: 0%;
+        padding-right: 0%;
+        text-align: center;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        background: linear-gradient(30deg, #c9353598, #50505098 20%, #c9353598 80%);
+    }
+
+    .ntuo {
+        width: 40%;
+        margin-left: 30%;
+        margin-right: 30%;
+        margin-bottom: 40px;
+        display: inline;
+        position: relative;
+        padding-bottom: 20px;
+        float: left;
+    }
+
+    .dv {
+        width: 40%;
+        margin-left: 30%;
+        margin-right: 30%;
+        margin-bottom: 40px;
+        display: inline;
+        position: relative;
+        padding-bottom: 20px;
+        float: left;
+    }
+
+    .dollars {
+        width: 40%;
+        margin-left: 30%;
+        margin-right: 30%;
+        padding-bottom: 20px;
+        display: inline;
+        position: relative;
+        float: left;
+    }
+
+    .ds-text {
+        color: azure;
+        font-size: 16px
+    }
+
+    .des-text {
+        font-size: 16px
+    }
+
+    #undergraund .heading2 {
+        font-size: 20px
+    }
+
+    .un-text {
+        font-size: 14px
+    }
+}
+
+/*Планшеты*/
+@media only screen and (max-width: 768px) {
+
+    .true-main-heading-right {
+        left: 0%;
+        width: 100%;
+        min-height: 10px;
+    }
+
+    .true-main-heading-left {
+        left: 0%;
+        width: 100%;
+        min-height: 10px;
+    }
+
+    .namae {
+        font-size: 24px;
+        top: 0%
+    }
+
+    .passage {
+        font-size: 20px;
+        top: 0%
+    }
+
+    .izaya {
+        margin-top: 2%;
+        margin-left: 20%;
+        margin-right: 20%;
+        box-sizing: border-box;
+        width: 60%
+    }
+
+    .scinse-photo2 {
+        display: table;
+        width: 90%;
+        min-height: 100px;
+        margin-right: 5%;
+        margin-left: 5%;
+        position: relative;
+        float: left;
+    }
+
+    .aa-photo2 {
+        display: table;
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        min-height: 100px;
+        position: relative;
+        float: left;
+    }
+
+    .ntuo {
+        width: 60%;
+        margin-left: 20%;
+        margin-right: 20%;
+        margin-bottom: 40px;
+        display: inline;
+        position: relative;
+        padding-bottom: 20px;
+        float: left;
+    }
+
+    .dv {
+        width: 60%;
+        margin-left: 20%;
+        margin-right: 20%;
+        margin-bottom: 40px;
+        display: inline;
+        position: relative;
+        padding-bottom: 20px;
+        float: left;
+    }
+
+    .dollars {
+        width: 60%;
+        margin-left: 20%;
+        margin-right: 20%;
+        margin-bottom: 40px;
+        padding-bottom: 20px;
+        display: inline;
+        position: relative;
+        float: left;
+    }
+
+    .ds-text {
+        color: azure;
+        font-size: 16px
+    }
+
+    .des-text {
+        font-size: 16px
+    }
+
+    #undergraund .heading2 {
+        font-size: 10px
+    }
+
+    .un-text {
+        width: 90%;
+        font-size: 14px;
+        padding-right: 5%;
+        padding-left: 5%;
+    }
+}
+
+/*Телефоны*/
+@media only screen and (max-width: 480px) {
+    .izaya {
+        margin-left: 10%;
+        margin-right: 10%;
+        box-sizing: border-box;
+        width: 80%
+    }
+
+    .scince-text {
+        width: 90%;
+        min-height: 5px;
+        font-size: 16px;
+        margin-right: 0;
+        padding-right: 5%;
+        padding-left: 5%;
+    }
+
+    .scinse-photo2 {
+        display: table;
+        width: 90%;
+        min-height: 100px;
+        margin-right: 5%;
+        margin-left: 5%;
+        position: relative;
+        float: left;
+    }
+
+    .aa-text {
+        width: 90%;
+        min-height: 5px;
+        font-size: 16px;
+        margin-right: 0;
+        padding-right: 5%;
+        padding-left: 5%;
+    }
+
+    .aa-photo2 {
+        display: table;
+        width: 90%;
+        min-height: 100px;
+        margin-right: 5%;
+        margin-left: 5%;
+        position: relative;
+        float: left;
+    }
+
+    .info-lower {
+        display: table;
+        font-size: 16px;
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 36px;
+        text-align: left;
+        text-indent: 2em;
+        font-size: 19px;
+    }
+
+    .skill-show {
+        width: 90%;
+        min-height: 20px;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 20px
+    }
+
+    .skill-show2 {
+        min-height: 20px;
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 20px
+    }
+
+    .music-lower {
+        display: table;
+        font-size: 16px;
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 36px;
+        text-align: left;
+        text-indent: 2em;
+        font-size: 19px;
+    }
+
+    .ntuo {
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-bottom: 40px;
+        display: inline;
+        position: relative;
+        padding-bottom: 20px;
+        float: left;
+    }
+
+    .dv {
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-bottom: 40px;
+        display: inline;
+        position: relative;
+        padding-bottom: 20px;
+        float: left;
+    }
+
+    .dollars {
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-bottom: 40px;
+        padding-bottom: 20px;
+        display: inline;
+        position: relative;
+        float: left;
+    }
+}
