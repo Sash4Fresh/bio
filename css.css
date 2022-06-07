@@ -33,13 +33,26 @@
     text-align: center;
 }
 
+.real-bg{
+    background-image: url(blur-wb.png);
+    min-height: 100px;
+    background-size: cover;
+}
+
 .fio {
-    padding-top: 5%;
-    padding-bottom: 5%;
     background-image: url(blur.png);
     min-height: 500px;
     background-size: cover;
     width: 100%;
+    display: table;
+}
+
+.true-heading {
+    background: linear-gradient(30deg, #4b35c998, #50505098 20%, #4b35c998 80%);
+    width: 100%;
+    min-height: 500px;
+    padding-top: 5%;
+    padding-bottom: 5%;
     display: table;
 }
 
@@ -65,13 +78,14 @@
     float: right;
     font-size: 36px;
     border-radius: 50%;
-    left: -10%
+    left: -5%
 }
 
 .namae {
     position: relative;
     text-align: center;
     font-size: 40px;
+    text-shadow: 2px 2px 2px#4b35c9;
     top: -20%
 }
 
@@ -79,6 +93,7 @@
     position: relative;
     text-align: center;
     font-size: 32px;
+    text-shadow: 2px 2px 2px#4b35c9;
     top: -5%
 }
 
@@ -89,7 +104,7 @@
     display: table;
     border-radius: 50%;
     border-color: #ffffff;
-    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.7);
+    box-shadow: 1px 1px 2px 2px #4b35c9;
     left: 0%
 }
 
@@ -109,7 +124,7 @@
     /*Настройки блока*/
     border-width: 8px;
     border-color: black;
-    background: linear-gradient(210deg, #ebb298 20%, #c36570 80%);
+    background: linear-gradient(30deg, #c97f3598, #50505098 20%, #c97f3598 80%);
     box-shadow: inset 0px 0px 25px 1px rgba(0, 0, 0, 0.5);
     background-size: cover;
     /*Настройки текста*/
@@ -168,10 +183,7 @@
 
 .scinse-photo2 {
     display: none;
-}
-
-.scinse-photo3 {
-    display: none;
+    border-color: #c97f35;
 }
 
 .real-photo {
@@ -179,7 +191,7 @@
     width: 100%;
     border: solid 8px;
     border-radius: 25px;
-    border-color: #ffffff;
+    border-color: #c97f35;
     box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.7);
     margin-bottom: 5%;
     margin-top: 5%;
@@ -196,7 +208,7 @@
     /*Настройки блока*/
     border-width: 8px;
     border-color: black;
-    background: linear-gradient(210deg, #0077ff 20%, #00aaff 80%);
+    background: linear-gradient(30deg, #353cc998, #50505098 20%, #353cc998 80%);
     box-shadow: inset 0px 0px 25px 1px rgba(0, 0, 0, 0.5);
     background-size: cover;
     /*Настройки текста*/
@@ -229,10 +241,7 @@
 
 .aa-photo2 {
     display: none;
-}
-
-.aa-photo3 {
-    display: none;
+    border-color: #353cc9;
 }
 
 .aa-real-photo {
@@ -240,7 +249,7 @@
     width: 100%;
     border: solid 8px;
     border-radius: 25px;
-    border-color: #ffffff;
+    border-color: #353cc9;
     box-sizing: border-box;
     box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.7);
     margin-bottom: 5%;
@@ -248,9 +257,9 @@
 }
 
 .aa-link {
-    color: rgb(4, 0, 229);
+    color: #4d78ee;
     text-decoration: none;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.727)
 }
 
 .block-heading {
@@ -280,7 +289,7 @@
     display: table;
     padding: 2% 5%;
     /*Настройки блока*/
-    background: linear-gradient(210deg, #000000 30%, #393939);
+    background: linear-gradient(30deg, #000000c9, #393939c9 20%, #000000c9 80%);
     box-shadow: inset 0px 0px 25px 1px rgba(0, 0, 0, 0.5);
     background-size: cover;
     /*Настройки текста*/
@@ -293,16 +302,19 @@
 .osu-link {
     color: #f63d90;
     text-decoration: none;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.727)
 }
 
 .cs-link {
     color: #fd9b00;
     text-decoration: none;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.727)
 }
 
 .val-link {
     color: #ff4657;
     text-decoration: none;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.727)
 }
 
 .skill-show {
@@ -414,8 +426,8 @@
     display: table;
     padding: 2% 5%;
     /*Настройки блока*/
-    background: linear-gradient(30deg, #ffaa65, #ffdab5 80%);
-    box-shadow: inset 0px 0px 25px 1px #672f00;
+    background: linear-gradient(30deg, #6d33a798, #50505098 20%, #6d33a798 80%);
+    box-shadow: inset 0px 0px 25px 1px #555555;
     background-size: cover;
     /*Настройки текста*/
     font-size: 22px;
@@ -436,7 +448,7 @@
     min-height: 100px;
     border: solid 8px;
     border-radius: 25px;
-    border-color: #672f00;
+    border-color: #6d33a798;
     box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.7);
     left: 0%;
     margin-bottom: 5%;
@@ -447,9 +459,8 @@
     display: table;
     width: 53%;
     min-height: 300px;
-    margin-top: 2%;
     float: right;
-    color: #672f00;
+    color: #ffffff;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
     text-align: left;
     text-indent: 2em
@@ -467,7 +478,7 @@
     min-height: 100px;
     border: solid 8px;
     border-radius: 25px;
-    border-color: #672f00;
+    border-color: #6d33a798;
     box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.7);
     left: 0%;
     margin-bottom: 5%;
@@ -478,9 +489,8 @@
     display: table;
     width: 53%;
     min-height: 300px;
-    margin-top: 2%;
     float: right;
-    color: #672f00;
+    color: #ffffff;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
     text-align: left;
     text-indent: 2em
@@ -495,8 +505,9 @@
 }
 
 .hobby-link {
-    color: rgb(229, 114, 0);
+    color: #bb50dc;
     text-decoration: none;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.727)
 }
 
 .activities {
@@ -506,7 +517,7 @@
     padding-right: 7%;
     padding-top: 2%;
     padding-bottom: 2%;
-    background: linear-gradient(72deg, #ff3535 11%, #5181b8 46%, #000000 86%);
+    background: linear-gradient(30deg, #c9353598, #50505098 20%, #c9353598 80%);
     display: table;
     text-align: center;
     vertical-align: top;

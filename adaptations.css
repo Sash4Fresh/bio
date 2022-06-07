@@ -1,11 +1,11 @@
 /*Овер фул ХД*/
 @media only screen and (max-width: 2220px) {
     .scince-text {
-        font-size: 32px;
+        font-size: 31px;
     }
 
     .aa-text {
-        font-size: 34px;
+        font-size: 31px;
     }
 
     .info {
@@ -25,11 +25,11 @@
     }
 
     .sax-story {
-        font-size: 28px
+        font-size: 29px
     }
 
     .piano-story {
-        font-size: 28px
+        font-size: 29px
     }
 
     .des-text {
@@ -41,7 +41,7 @@
     }
 
     .un-text {
-        font-size: 14px;
+        font-size: 19px;
         text-indent: 0;
     }
 }
@@ -49,11 +49,11 @@
 /*Фул ХД*/
 @media only screen and (max-width: 1920px) {
     .scince-text {
-        font-size: 26px;
+        font-size: 24px;
     }
 
     .aa-text {
-        font-size: 26px;
+        font-size: 24px;
     }
 
     .info {
@@ -89,7 +89,7 @@
     }
 
     .un-text {
-        font-size: 14px
+        font-size: 16px
     }
 }
 
@@ -128,11 +128,11 @@
     }
 
     .sax-story {
-        font-size: 18px
+        font-size: 20px
     }
 
     .piano-story {
-        font-size: 18px
+        font-size: 20px
     }
 
     .des-text {
@@ -150,13 +150,17 @@
         min-height: 100px;
     }
 
+    .true-heading{
+        min-height: 100px;
+    }
+
     .true-main-heading-right {
         left: -5%;
         min-height: 10px;
     }
 
     .true-main-heading-left {
-        left: 5%;
+        left: 11%;
         min-height: 10px;
     }
 
@@ -178,11 +182,11 @@
     }
 
     .scince-text {
-        font-size: 17px;
+        font-size: 16px;
     }
 
     .aa-text {
-        font-size: 17px;
+        font-size: 16px;
     }
 
     .info {
@@ -207,15 +211,46 @@
     }
 
     .heading2 {
-        font-size: 20px
+        font-size: 18px
     }
 
     .sax-story {
-        font-size: 15px
+        font-size: 16px
     }
 
     .piano-story {
-        font-size: 15px
+        font-size: 16px
+    }
+
+    .ntuo {
+        width: 34%;
+        margin-left: 10%;
+        margin-right: 6%;
+        margin-bottom: 40px;
+        display: inline;
+        position: relative;
+        padding-bottom: 20px;
+        float: left;
+    }
+
+    .dv {
+        width: 34%;
+        margin-right: 10%;
+        margin-bottom: 40px;
+        display: inline;
+        position: relative;
+        padding-bottom: 20px;
+        float: left;
+    }
+
+    .dollars {
+        width: 34%;
+        margin-left: 33%;
+        margin-right: 33%;
+        padding-bottom: 20px;
+        display: inline;
+        position: relative;
+        float: left;
     }
 
     .des-text {
@@ -234,6 +269,10 @@
 /*Маленькие мониторы*/
 @media only screen and (max-width: 1000px) {
     .fio {
+        min-height: 100px;
+    }
+
+    .true-heading {
         min-height: 100px;
     }
 
@@ -262,6 +301,9 @@
 
     .scince {
         min-height: 100px;
+        width: 90%;
+        padding-left: 5%;
+        padding-right: 5%;
     }
 
     .scinse-photo {
@@ -270,19 +312,10 @@
 
     .scinse-photo2 {
         display: table;
-        width: 44%;
-        margin-left: 4%;
-        margin-right: 4%;
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
         min-height: 100px;
-        position: relative;
-        float: left;
-    }
-
-    .scinse-photo3 {
-        display: table;
-        width: 44%;
-        min-height: 100px;
-        margin-right: 4%;
         position: relative;
         float: left;
     }
@@ -294,6 +327,13 @@
         margin-right: 0;
         padding-right: 5%;
         padding-left: 5%;
+    }
+
+    .aa{
+        min-height: 100px;
+        width: 90%;
+        padding-left: 5%;
+        padding-right: 5%;
     }
 
     .aa-photo {
@@ -311,19 +351,10 @@
 
     .aa-photo2 {
         display: table;
-        width: 44%;
-        margin-left: 4%;
-        margin-right: 4%;
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
         min-height: 100px;
-        position: relative;
-        float: left;
-    }
-
-    .aa-photo3 {
-        display: table;
-        width: 44%;
-        min-height: 100px;
-        margin-right: 4%;
         position: relative;
         float: left;
     }
@@ -398,7 +429,7 @@
         text-align: left;
         text-indent: 2em;
         font-size: 19px;
-        color: #672f00;
+        color: #ffffff;
     }
 
     .piano-skils {
@@ -422,7 +453,7 @@
         text-align: center;
         padding-top: 40px;
         padding-bottom: 40px;
-        background: linear-gradient(190deg, #ff3535 11%, #5181b8 33%, #5181b8 40%, #000000 62%);
+        background: linear-gradient(30deg, #c9353598, #50505098 20%, #c9353598 80%);
     }
 
     .ntuo {
@@ -451,7 +482,6 @@
         width: 40%;
         margin-left: 30%;
         margin-right: 30%;
-        margin-bottom: 40px;
         padding-bottom: 20px;
         display: inline;
         position: relative;
@@ -476,6 +506,7 @@
     }
 }
 
+/*Планшеты*/
 @media only screen and (max-width: 768px) {
 
     .true-main-heading-right {
@@ -509,10 +540,6 @@
     }
 
     .scinse-photo2 {
-        display: none;
-    }
-
-    .scinse-photo3 {
         display: table;
         width: 90%;
         min-height: 100px;
@@ -523,21 +550,11 @@
     }
 
     .aa-photo2 {
-        display: none;
-        width: 44%;
-        margin-left: 4%;
-        margin-right: 4%;
-        min-height: 100px;
-        position: relative;
-        float: left;
-    }
-
-    .aa-photo3 {
         display: table;
         width: 90%;
-        min-height: 100px;
-        margin-right: 5%;
         margin-left: 5%;
+        margin-right: 5%;
+        min-height: 100px;
         position: relative;
         float: left;
     }
@@ -614,6 +631,16 @@
         padding-left: 5%;
     }
 
+    .scinse-photo2 {
+        display: table;
+        width: 90%;
+        min-height: 100px;
+        margin-right: 5%;
+        margin-left: 5%;
+        position: relative;
+        float: left;
+    }
+
     .aa-text {
         width: 90%;
         min-height: 5px;
@@ -621,6 +648,16 @@
         margin-right: 0;
         padding-right: 5%;
         padding-left: 5%;
+    }
+
+    .aa-photo2 {
+        display: table;
+        width: 90%;
+        min-height: 100px;
+        margin-right: 5%;
+        margin-left: 5%;
+        position: relative;
+        float: left;
     }
 
     .info-lower {
@@ -696,6 +733,3 @@
         float: left;
     }
 }
-
-/*Часы?*/
-@media only screen and (max-width: 320px) {}
