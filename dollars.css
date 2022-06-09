@@ -6,23 +6,27 @@
 .main {
     width: 100%;
     margin: 0;
-    background: linear-gradient(70deg, #171717, #000000);
+    background-image: url(dollars-bg.png); 
+    background-size: cover;
     font-family: "Montserrat", sans-serif;
     color: #ffffff
 }
 
 .header {
+    background: linear-gradient(70deg, #171717ce, #000000ce);
     padding-top: 10px;
     padding-bottom: 10px;
     width: 100%;
     min-height: 10px;
-    font-size: 43px;
+    font-size: 22px;
     font-family: "Roboto Condensed", sans-serif;
     box-shadow: 0px 0px 20px 0px white;
     display: table;
+    position: relative;
+    z-index: 2
 }
 
-.team {
+.team-btn {
     position: relative;
     text-align: left;
     display: table;
@@ -31,7 +35,7 @@
     padding-left: 1%;
 }
 
-.passage {
+.passage-btn {
     position: relative;
     text-align: center;
     display: table;
@@ -39,11 +43,94 @@
     width: 58%;
 }
 
-.bio {
+.bio-btn {
     position: relative;
     text-align: right;
     display: table;
     float: left;
     width: 20%;
     padding-right: 1%;
+}
+
+.content{
+    min-height: 50px;
+}
+
+.face-banner{
+    width: 100%;
+    display: table;
+    min-height: 10px;
+    background: linear-gradient(70deg, #000000ce, #181818ce);
+}
+
+.face-banner-cell{
+    height: 600px;
+    padding: 0;
+    width: 100%;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.leftside{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    float: left;
+    display: table;
+    min-height: 50px;
+    font-size: 36px;
+    width: 45%;
+    text-align: center;
+}
+
+.rightside{
+    position: relative;
+    font-size: 36px;
+    float: right;
+    min-height: 10px;
+    width: 55%;
+}
+
+.heading{
+    background: linear-gradient(70deg, #000000ce, #141414ce);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    min-height: 10px;
+    font-size: 26px;
+    display: table;
+    text-align: center;
+    box-shadow: inset 0px 0px 30px 0px #ffffffba;
+}
+
+.description{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+    min-height: 10px;
+    font-size: 26px;
+    display: table;
+    text-align: center;
+    background: linear-gradient(70deg, #121212ce, #0a0a0ace);
+}
+
+
+.underground{
+    background: linear-gradient(70deg, #000000ce, #222222ce);
+    padding: 1%;
+    width:98%;
+    min-height: 10px;
+    font-size: 20px;
+    font-family: "Roboto Condensed", sans-serif;
+    box-shadow: 0px 0px 20px 0px white;
+    display: table;
+}
+
+.un-head{
+    font-size: 22px;
+}
+
+.un-des{
+    font-size: 18px;
+    padding: 0;
 }
