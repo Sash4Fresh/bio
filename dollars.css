@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+
+.main {
+    width: 100%;
+    margin: 0;
+    background: linear-gradient(70deg, #171717, #000000);
+    font-family: "Montserrat", sans-serif;
+    color: #ffffff
+}
+
+.header {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    min-height: 10px;
+    font-size: 43px;
+    font-family: "Roboto Condensed", sans-serif;
+    box-shadow: 0px 0px 20px 0px white;
+    display: table;
+}
+
+.team {
+    position: relative;
+    text-align: left;
+    display: table;
+    float: left;
+    width: 20%;
+    padding-left: 1%;
+}
+
+.passage {
+    position: relative;
+    text-align: center;
+    display: table;
+    float: left;
+    width: 58%;
+}
+
+.bio {
+    position: relative;
+    text-align: right;
+    display: table;
+    float: left;
+    width: 20%;
+    padding-right: 1%;
+}
