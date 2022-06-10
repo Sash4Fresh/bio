@@ -6,7 +6,7 @@
 .main {
     width: 100%;
     margin: 0;
-    background-image: url(dollars-bg.png); 
+    background-image: url(dollars-bg.png);
     background-size: cover;
     font-family: "Montserrat", sans-serif;
     color: #ffffff
@@ -52,18 +52,18 @@
     padding-right: 1%;
 }
 
-.content{
+.content {
     min-height: 50px;
 }
 
-.face-banner{
+.face-banner {
     width: 100%;
     display: table;
     min-height: 10px;
     background: linear-gradient(70deg, #000000ce, #181818ce);
 }
 
-.face-banner-cell{
+.face-banner-cell {
     height: 600px;
     padding: 0;
     width: 100%;
@@ -71,7 +71,7 @@
     vertical-align: middle;
 }
 
-.leftside{
+.leftside {
     padding-top: 20px;
     padding-bottom: 20px;
     position: relative;
@@ -83,7 +83,7 @@
     text-align: center;
 }
 
-.rightside{
+.rightside {
     position: relative;
     font-size: 36px;
     float: right;
@@ -91,7 +91,7 @@
     width: 55%;
 }
 
-.heading{
+.heading {
     background: linear-gradient(70deg, #000000ce, #141414ce);
     padding-top: 10px;
     padding-bottom: 10px;
@@ -103,22 +103,40 @@
     box-shadow: inset 0px 0px 30px 0px #ffffffba;
 }
 
-.description{
+.description {
     padding-top: 20px;
     padding-bottom: 20px;
-    width: 100%;
+    padding-left: 3%;
+    padding-right: 3%;
+    width: 94%;
     min-height: 10px;
-    font-size: 26px;
+    font-size: 24px;
     display: table;
     text-align: center;
     background: linear-gradient(70deg, #121212ce, #0a0a0ace);
 }
 
+.des-text {
+    text-align: left;
+    text-indent: 2em;
+}
 
-.underground{
+.des-apeal {
+    display: inline-table;
+    min-height: 1px;
+    min-width: 1px;
+    font-size: 30px;
+    text-shadow: 0px 0px 5px #ffffff;
+}
+
+.final-apeal {
+    font-size: 50px;
+}
+
+.underground {
     background: linear-gradient(70deg, #000000ce, #222222ce);
     padding: 1%;
-    width:98%;
+    width: 98%;
     min-height: 10px;
     font-size: 20px;
     font-family: "Roboto Condensed", sans-serif;
@@ -126,11 +144,11 @@
     display: table;
 }
 
-.un-head{
+.un-head {
     font-size: 22px;
 }
 
-.un-des{
+.un-des {
     font-size: 18px;
     padding: 0;
 }
